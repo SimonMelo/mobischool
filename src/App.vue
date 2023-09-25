@@ -17,9 +17,6 @@ html {
   font-size: 62.5%;
 }
 
-body{
-  background:#FFE925;
-}
 
 *{
   padding: 0;

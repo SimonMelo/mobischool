@@ -18,7 +18,10 @@ export default {
   <LoginForm/>
 </template>
 
-<style scoped>
+<style>
 
+body{
+  background:#FFE925;
+}
 
 </style>
