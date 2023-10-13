@@ -26,7 +26,6 @@ export default {
     },
 },
 created() {
-    // Certifique-se de que a biblioteca do Google Sign-In foi carregada com sucesso
     if (typeof gapi !== 'undefined') {
       gapi.load('auth2', () => {
         gapi.auth2.init({
@@ -100,7 +99,7 @@ const disabled = computed(() => {
             
             <a-form-item class="mt-5">
                 <strong>Não possui uma conta ?</strong> 
-                <a href=""> Cadastra-se</a>
+                <a href="/register"> Cadastra-se</a>
             </a-form-item>
         </a-form>
         <div>
